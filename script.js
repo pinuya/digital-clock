@@ -15,10 +15,7 @@ function updateClock() {
 }
 
 function fixZero(time) {
-    return time < 10 ? ` 0${time}` : time;
-  }
-
-  
+  return time < 10 ? ` 0${time}` : time;
 }
 
 setInterval(updateClock, 1000);
