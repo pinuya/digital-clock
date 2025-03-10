@@ -19,7 +19,7 @@ export default function DigitalClock() {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="rounded-lg bg-black p-6 font-mono text-6xl text-green-500 shadow-lg">
+      <div className="font-orbitron text-9xl text-white shadow-lg">
         <span>{hours}</span>
         <span
           className={time.getSeconds() % 2 === 0 ? "opacity-100" : "opacity-30"}
@@ -34,7 +34,7 @@ export default function DigitalClock() {
         </span>
         <span>{seconds}</span>
       </div>
-      <p className="mt-4 text-gray-600">
+      <p className="mt-4 font-montserrat text-gray-400">
         {time.toLocaleDateString(undefined, {
           weekday: "long",
           year: "numeric",

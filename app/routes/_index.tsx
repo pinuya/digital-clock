@@ -10,8 +10,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-100">
-      <h1 className="mb-8 text-4xl font-bold">Digital Clock</h1>
+    <div className="flex min-h-screen flex-col items-center justify-center bg-black bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
       <DigitalClock />
     </div>
   );
